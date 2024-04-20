@@ -1,5 +1,5 @@
 
-// let userName = prompt("plz Type Your Name");
+let userName = prompt("plz Type Your Name");
 
 let inputForm = document.querySelector("#tableForm");
 let input = document.querySelector("#inputID");
@@ -7,9 +7,9 @@ let table = document.querySelector(".time-table");
 let times = document.querySelector(".times");
 let namazTime = document.querySelector(".namaztime");
 let userinfo = document.querySelector(".username")
-// console.log(userName);
-// userinfo.innerHTML = "";
-// userinfo.innerHTML += "<h4>Hello,</h4> " + userName + "👋👋" ;
+console.log(userName);
+userinfo.innerHTML = "";
+userinfo.innerHTML += "<h4>Hello,</h4> " + userName + "👋👋" ;
 inputForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
